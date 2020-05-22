@@ -3,7 +3,7 @@
     <head>
         <title>Welcome, friends!</title>
         <link rel="stylesheet"
-            href="{{ url_for('static', filename='css/style.css') }}">
+            href="{{ url_for('static', filename='css/styles.css') }}">
     </head>
     <body>
         <div class="conatiner">
@@ -18,5 +18,8 @@
             {% endblock %}
             <!-- end inheritance -->
         </div>
+        <link rel="stylesheet"
+            href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
     </body>
 </html>
